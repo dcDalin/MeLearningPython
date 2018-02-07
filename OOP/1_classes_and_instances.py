@@ -22,6 +22,7 @@ class Employee:
         we can specify other arguments after self
     '''
     def __init__(self, first, last, pay):
+        # instance variables
         self.first = first
         self.last = last
         self.pay = pay
